@@ -1,0 +1,9 @@
+body {
+	font-family: 'Lato';
+}
+.intro_menu {
+	background-image: url('../pattern_lib/white-wood.jpg');
+}
+h3 {
+	font-size: 250%;
+}
