@@ -11,7 +11,8 @@ $(document).ready(function(){
 
 	});
 
-	function skrollr_init() {
+	function skrollr_init() 
+	{
 		var x = skrollr.init({
 			render: function(data) {
 				//Debugging - Log the current scroll position.
@@ -21,8 +22,13 @@ $(document).ready(function(){
 	}
 	skrollr_init();
 
+	function tester() 
+	{
+		console.log("in tester");
+		//console.log($(".tester").attr("background-color"));
+	}
 
-
+	tester();
 
 
 })
